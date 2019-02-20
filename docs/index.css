@@ -1,0 +1,56 @@
+html {
+	font-size: 125%;
+	padding: 50px;
+}
+
+.container {
+	max-width: 800px;
+}
+.container .title {
+	font-size: 2em;
+	font-weight: bold;
+}
+.container .description {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.alert-good {
+	cursor: pointer;
+}
+
+.half {
+	width: 50%;
+}
+
+.modal {
+	text-align: center;
+}
+@media screen and (min-width: 768px) {
+	.modal:before {
+		display: inline-block;
+		vertical-align: middle;
+		content: " ";
+		height: 100%;
+	}
+}
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+.modal-title {
+	font-size: 1.5em;
+}
+
+.progress {
+	height: 20px;
+}
+.progress-description {
+	margin: 20px 0;
+}
+
+.made-with {
+	float: right;
+	font-size: 0.8rem;
+}
